@@ -23,18 +23,23 @@
 
 **This Week's Goals:**
 1. ✅ Document strategy (this repo created)
-2. 🔄 Deploy arcforge.au website
-3. 🔄 Create Upwork profile + 10 bids
-4. 🔄 Research 20 local businesses
-5. 🔄 Write outreach scripts
+2. ✅ Deploy arcforge.au website
+3. ✅ Create business-cloud-template repository
+4. 🔄 Create Upwork profile + 10 bids
+5. 🔄 Research 20 local businesses
+6. 🔄 Write outreach scripts
 
 ### Daily Breakdown
 
 **Monday Nov 20** (TODAY):
 - [x] Create arcforge-revenue-sprint project
 - [x] Document complete strategy
-- [ ] Start arcforge.au website design
-- [ ] Set up Upwork account
+- [x] Create arcforge.au website design
+- [x] Deploy arcforge.au website to DO droplet
+- [x] Create business-cloud-template repository (22 files, 4,087 lines)
+- [x] Push template to GitHub (private repo)
+- [x] Configure DNS records for arcforge.au
+- [ ] Set up Upwork account (moved to Tuesday)
 
 **Tuesday Nov 21**:
 - [ ] Complete arcforge.au website
@@ -89,9 +94,10 @@
 ### Track 3: Productized Service
 | Metric | Target | Actual | Notes |
 |--------|--------|--------|-------|
-| Website deployed | Yes | No | Due: Tue Nov 21 |
-| Landing page created | Yes | No | Due: Thu Nov 23 |
-| Initial traffic | - | - | Track from Week 2 |
+| Website deployed | Yes | ✅ Yes | Deployed Nov 20 to DO droplet |
+| Template repository | Yes | ✅ Yes | business-cloud-template created |
+| DNS configured | Yes | ⏳ Pending | Awaiting nameserver update at VentraIP |
+| Initial traffic | - | - | Track from Week 2 (post DNS) |
 
 ---
 
@@ -137,6 +143,23 @@
 - ✅ Documented complete 4-week strategy
 - ✅ Set up project structure (7 core docs)
 - ✅ Defined service offerings and pricing
+- ✅ **Created business-cloud-template repository**
+  - 22 files, 4,087 lines of code
+  - Complete Terraform infrastructure (DO droplet provisioning)
+  - Docker Compose stack (Nextcloud, Vaultwarden, n8n, Headscale, Caddy)
+  - Deployment automation scripts
+  - Full documentation suite (7 core docs + CLIENT_GUIDE + DEPLOYMENT_GUIDE)
+  - Pushed to GitHub as private repository
+- ✅ **Deployed arcforge.au website**
+  - Professional one-page business website
+  - Custom typography (Space Grotesk + JetBrains Mono)
+  - Gradient backgrounds and animations
+  - Design quality: 7.5/10 (production ready)
+  - Deployed to DO droplet (170.64.169.203)
+  - Caddy reverse proxy configured (auto HTTPS)
+  - Digital Ocean DNS configured
+  - GitHub repository: https://github.com/IAMSamuelRodda/arcforge-website
+  - **Pending**: Nameserver update at VentraIP registrar
 
 ---
 
@@ -196,7 +219,9 @@
 - (Add as conversations start)
 
 ### Important Links
-- arcforge.au: (deploying Tuesday)
+- arcforge.au: https://arcforge.au (pending DNS propagation)
+- business-cloud-template: https://github.com/IAMSamuelRodda/business-cloud-template (private)
+- arcforge-website: https://github.com/IAMSamuelRodda/arcforge-website
 - Upwork profile: (creating Tuesday)
 - LinkedIn: (update Wednesday)
 - GitHub portfolio: https://github.com/IAMSamuelRodda
