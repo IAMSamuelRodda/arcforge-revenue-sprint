@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Comparison - Self-Hosted vs SaaS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 60px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            background: white;
+            border-radius: 24px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #1a202c;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 20px;
+            color: #718096;
+            margin-bottom: 50px;
+        }
+
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .column {
+            background: #f7fafc;
+            border-radius: 16px;
+            padding: 40px;
+            border: 3px solid #e2e8f0;
+        }
+
+        .column.before {
+            border-color: #fc8181;
+            background: #fff5f5;
+        }
+
+        .column.after {
+            border-color: #68d391;
+            background: #f0fff4;
+        }
+
+        .column-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .column.before .column-title {
+            color: #c53030;
+        }
+
+        .column.after .column-title {
+            color: #2f855a;
+        }
+
+        .icon {
+            font-size: 32px;
+        }
+
+        .service-list {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .service-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 0;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 18px;
+        }
+
+        .service-name {
+            color: #2d3748;
+            font-weight: 500;
+        }
+
+        .service-cost {
+            color: #1a202c;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .column.before .service-cost {
+            color: #c53030;
+        }
+
+        .column.after .service-cost {
+            color: #2f855a;
+        }
+
+        .total {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 3px solid #e2e8f0;
+        }
+
+        .column.before .total {
+            border-top-color: #fc8181;
+        }
+
+        .column.after .total {
+            border-top-color: #68d391;
+        }
+
+        .total-label {
+            font-size: 18px;
+            color: #4a5568;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .total-monthly {
+            font-size: 48px;
+            font-weight: 800;
+            font-family: 'JetBrains Mono', monospace;
+            margin-bottom: 8px;
+        }
+
+        .column.before .total-monthly {
+            color: #c53030;
+        }
+
+        .column.after .total-monthly {
+            color: #2f855a;
+        }
+
+        .total-annual {
+            font-size: 18px;
+            color: #718096;
+            font-weight: 600;
+        }
+
+        .savings {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        .savings-label {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            opacity: 0.9;
+        }
+
+        .savings-amount {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .savings-percent {
+            font-size: 32px;
+            font-weight: 700;
+            opacity: 0.95;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #718096;
+            font-size: 16px;
+        }
+
+        .footer strong {
+            color: #2d3748;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Self-Hosted Infrastructure Cost Savings</h1>
+        <p class="subtitle">Professional Business Cloud for Small Teams</p>
+
+        <div class="comparison">
+            <!-- BEFORE: SaaS Stack -->
+            <div class="column before">
+                <div class="column-title">
+                    <span class="icon">❌</span>
+                    Traditional SaaS Stack
+                </div>
+
+                <ul class="service-list">
+                    <li class="service-item">
+                        <span class="service-name">Google Workspace</span>
+                        <span class="service-cost">$240/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">1Password Business</span>
+                        <span class="service-cost">$96/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">Zapier Professional</span>
+                        <span class="service-cost">$200/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">VPN Service</span>
+                        <span class="service-cost">$48/mo</span>
+                    </li>
+                </ul>
+
+                <div class="total">
+                    <div class="total-label">TOTAL MONTHLY COST</div>
+                    <div class="total-monthly">$584</div>
+                    <div class="total-annual">$7,008 per year</div>
+                </div>
+            </div>
+
+            <!-- AFTER: Self-Hosted -->
+            <div class="column after">
+                <div class="column-title">
+                    <span class="icon">✅</span>
+                    Self-Hosted Solution
+                </div>
+
+                <ul class="service-list">
+                    <li class="service-item">
+                        <span class="service-name">Digital Ocean VPS</span>
+                        <span class="service-cost">$43/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">Backblaze Backups</span>
+                        <span class="service-cost">$5/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">Domain Registration</span>
+                        <span class="service-cost">$1/mo</span>
+                    </li>
+                    <li class="service-item">
+                        <span class="service-name">&nbsp;</span>
+                        <span class="service-cost">&nbsp;</span>
+                    </li>
+                </ul>
+
+                <div class="total">
+                    <div class="total-label">TOTAL MONTHLY COST</div>
+                    <div class="total-monthly">$49</div>
+                    <div class="total-annual">$588 per year</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SAVINGS CALLOUT -->
+        <div class="savings">
+            <div class="savings-label">💰 ANNUAL SAVINGS</div>
+            <div class="savings-amount">$6,420</div>
+            <div class="savings-percent">91% Cost Reduction</div>
+        </div>
+
+        <div class="footer">
+            <strong>Includes:</strong> Nextcloud (file sync), Vaultwarden (passwords), n8n (automation), Headscale (VPN), automated backups, 99.5% uptime
+        </div>
+    </div>
+</body>
+</html>

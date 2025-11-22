@@ -538,4 +538,83 @@ git tag week-1-complete
 
 ---
 
+## Portfolio & Marketing Materials
+
+### Visual Assets Strategy
+
+**Purpose**: Create compelling portfolio pieces for Upwork/Freelancer profiles that inspire clients to buy through visual storytelling.
+
+**Priority Creation Order** (Week 1):
+
+1. **Architecture Diagram** (30 min)
+   - Tool: Excalidraw or Figma
+   - Subject: business-cloud-template infrastructure
+   - Shows: Multi-service architecture with cost comparison
+   - Location: `/portfolio/architecture-diagram.png`
+
+2. **Before/After Cost Comparison** (15 min)
+   - Tool: Canva or text-based graphic
+   - Shows: SaaS ($584/mo) vs Self-hosted ($49/mo)
+   - ROI callout: 91% savings
+   - Location: `/portfolio/cost-comparison.png`
+
+3. **Screenshots Portfolio** (5-20 min)
+   - From do-vps-prod production system:
+     - Monitoring dashboard (99.5% uptime proof)
+     - n8n workflow automation example
+     - CI/CD pipeline success (GitHub Actions)
+     - Nextcloud interface (file sync demo)
+     - SSL Labs A+ rating
+   - Location: `/portfolio/screenshots/`
+
+4. **Sample Docker Compose Gist** (10 min)
+   - Well-commented production docker-compose.yml
+   - From business-cloud-template
+   - Post to GitHub Gist
+   - Link in Upwork portfolio
+
+5. **1-Page Case Study** (20 min)
+   - Template: Challenge → Solution → Results
+   - Example: Business Cloud Infrastructure project
+   - Include metrics and tech stack
+   - Location: `/portfolio/case-study-business-cloud.md`
+
+6. **Client Handover Guide Sample** (30 min)
+   - 3-page PDF showing professionalism
+   - Infrastructure overview + common tasks + support
+   - Demonstrates documentation quality
+   - Location: `/portfolio/handover-guide-sample.pdf`
+
+**Tools Required** (All Free):
+- Excalidraw (excalidraw.com) - Architecture diagrams
+- Canva (canva.com) - Graphics and case studies
+- Carbon (carbon.now.sh) - Beautiful code screenshots
+- Pandoc - Markdown to PDF conversion
+- OBS Studio - Screen recording (optional)
+
+**Storage Structure:**
+```
+/portfolio/
+├── architecture-diagram.png
+├── cost-comparison.png
+├── case-study-business-cloud.md
+├── case-study-business-cloud.pdf
+├── handover-guide-sample.pdf
+├── docker-compose-gist.yml
+└── screenshots/
+    ├── monitoring-dashboard.png
+    ├── n8n-workflow.png
+    ├── cicd-success.png
+    ├── nextcloud-interface.png
+    └── ssl-rating.png
+```
+
+**Integration with Upwork:**
+- Upload to Upwork "Portfolio" section (max 10 items)
+- Link GitHub Gist in profile description
+- Reference in custom proposals
+- Use in project gallery responses
+
+---
+
 **Last Updated**: November 20, 2025
