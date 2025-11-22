@@ -39,7 +39,10 @@
 - [x] Create business-cloud-template repository (22 files, 4,087 lines)
 - [x] Push template to GitHub (private repo)
 - [x] Configure DNS records for arcforge.au
-- [ ] Set up Upwork account (moved to Tuesday)
+- [x] **Create Upwork portfolio assets** (cost comparison, architecture docs, Docker Gist, screenshot guide)
+- [x] Set up Upwork project (pricing tiers, categories, portfolio strategy)
+- [ ] Screenshot cost-comparison.html and upload to Upwork (NEXT ACTION)
+- [ ] Finalize and publish Upwork project (moved to Tuesday)
 
 **Tuesday Nov 21**:
 - [ ] Complete arcforge.au website
