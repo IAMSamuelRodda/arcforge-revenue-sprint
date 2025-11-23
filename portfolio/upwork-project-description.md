@@ -101,9 +101,15 @@ Typical delivery: 7-10 days from requirements to go-live. This includes infrastr
 ## Pricing Context
 
 **Setup fees (one-time):**
-- Basic: $1,800
-- Complete: $2,500
-- Premium: $3,500
+- Essential Business Cloud: $1,200
+- Professional Business Cloud: $2,000
+- Premium Managed Setup: $3,200
+
+**Pricing Rationale:**
+- Competitive positioning for first 5 clients (build portfolio)
+- Based on $100/hr rate with AI-accelerated delivery (6/11/20 hours)
+- Will increase to $1,500/$2,500/$4,000 after establishing reviews
+- See `/arcforge-business-planning/pricing-analysis-2024.md` for full justification
 
 **Ongoing costs (client pays):**
 - VPS hosting: ~$75/mo (paid to Digital Ocean/Vultr, not Arc Forge)
