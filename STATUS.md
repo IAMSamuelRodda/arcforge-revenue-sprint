@@ -47,7 +47,8 @@
 - [x] **Write project description** (summary, steps, FAQs - workflow-aligned)
 - [x] **Finalize and publish Upwork project** ✅ LIVE (pricing: $1,200/$2,000/$3,200)
 - [x] **Complete pricing analysis** (market research, 592-line documentation)
-- [ ] **Set up Arc Forge Agency Account on Upwork** (NEXT ACTION - professional branding)
+- [x] **Set up Arc Forge Agency Account on Upwork** ✅ FREE TIER (professional branding)
+- [ ] **Complete Arc Forge agency profile** (bio, skills, portfolio, link arcforge.au)
 
 **Tuesday Nov 21**:
 - [ ] Complete arcforge.au website
