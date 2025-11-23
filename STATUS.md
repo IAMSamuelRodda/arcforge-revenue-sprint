@@ -45,7 +45,9 @@
 - [x] **Screenshot and upload to Upwork** (comparison table uploaded to gallery)
 - [x] **Define Upwork project requirements** (streamlined to 3 mandatory fields)
 - [x] **Write project description** (summary, steps, FAQs - workflow-aligned)
-- [ ] **Finalize and publish Upwork project** (NEXT ACTION - final review & submit)
+- [x] **Finalize and publish Upwork project** ✅ LIVE (pricing: $1,200/$2,000/$3,200)
+- [x] **Complete pricing analysis** (market research, 592-line documentation)
+- [ ] **Set up Arc Forge Agency Account on Upwork** (NEXT ACTION - professional branding)
 
 **Tuesday Nov 21**:
 - [ ] Complete arcforge.au website
@@ -84,7 +86,8 @@
 ### Track 1: Freelance Platforms
 | Metric | Target | Actual | Notes |
 |--------|--------|--------|-------|
-| Profile created | 1 | 0 | Due: Tue Nov 21 |
+| Project published | 1 | ✅ 1 | Self-hosted infrastructure ($1,200-3,200) |
+| Agency profile created | 1 | 0 | Next: Arc Forge branding |
 | Jobs bid on | 10 | 0 | 5 Tue, 5 Wed |
 | Conversations started | 2-3 | 0 | |
 | Proposals sent | 1-2 | 0 | |
