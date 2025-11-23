@@ -41,8 +41,11 @@
 - [x] Configure DNS records for arcforge.au
 - [x] **Create Upwork portfolio assets** (cost comparison, architecture docs, Docker Gist, screenshot guide)
 - [x] Set up Upwork project (pricing tiers, categories, portfolio strategy)
-- [ ] Screenshot cost-comparison.html and upload to Upwork (NEXT ACTION)
-- [ ] Finalize and publish Upwork project (moved to Tuesday)
+- [x] **Redesign cost-comparison.html** (terminal aesthetic, control-focused messaging)
+- [x] **Screenshot and upload to Upwork** (comparison table uploaded to gallery)
+- [x] **Define Upwork project requirements** (streamlined to 3 mandatory fields)
+- [x] **Write project description** (summary, steps, FAQs - workflow-aligned)
+- [ ] **Finalize and publish Upwork project** (NEXT ACTION - final review & submit)
 
 **Tuesday Nov 21**:
 - [ ] Complete arcforge.au website
