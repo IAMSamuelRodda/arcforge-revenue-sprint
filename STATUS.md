@@ -2,7 +2,7 @@
 
 **Purpose**: Weekly progress tracking and current work
 **Lifecycle**: Living (rolling 2-week window)
-**Last Updated**: 2025-11-24
+**Last Updated**: 2025-11-25
 
 ---
 
@@ -19,7 +19,9 @@
 
 ## Week 1: Launch & Visibility (Nov 20-27)
 
-**Status**: 🟡 IN PROGRESS (Day 1 of 7)
+**Status**: 🟡 IN PROGRESS (Day 6 of 7)
+
+**Strategic Pivot**: Moving website strategy to deep customer avatar research (see arcforge-business-planning repo)
 
 **This Week's Goals:**
 1. ✅ Document strategy (this repo created)
@@ -233,13 +235,20 @@
 ## Weekly Learnings
 
 **What worked:**
-- (Update Friday)
+- Upwork project publishing (2 projects live: infrastructure + music)
+- Agency profile setup (clean positioning)
+- Deep strategic thinking on customer avatars
 
 **What didn't work:**
-- (Update Friday)
+- Generic website positioning too shallow
+- "Frustrated by SaaS costs" not specific enough to convert
+- Need intimate understanding of customer daily workflows
 
 **Adjustments for next week:**
-- (Update Friday)
+- **PIVOT**: Deep customer avatar research before more marketing
+- Interview 3-5 people from Field Services or Construction avatars
+- Build avatar-specific landing pages for A/B/C/D/E testing
+- Validate messaging with real customers before scaling outreach
 
 ---
 
